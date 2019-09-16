@@ -27,4 +27,12 @@ Copyright 2016-2017 Red Hat, Inc, and individual contributors.
         <module>fruit-backend-sb</module>
         <module>fruit-client-sb</module>
     </modules>
+    <profiles>
+        <profile>
+            <id>kubernetes</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
 </project>
